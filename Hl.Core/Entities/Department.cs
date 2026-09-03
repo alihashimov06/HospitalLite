@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Hl.Core.Entities
 {
-    internal class Department
+    public class Department
     {
+        public string Name { get; set; } = string.Empty;
+
+        public ICollection<Doctor> Doctors { get; set; } = new List<Doctor>();
     }
 }
