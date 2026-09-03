@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Hl.Api/Hl.Api.csproj" />
+  <Project Path="Hl.Business/Hl.Business.csproj" />
+  <Project Path="Hl.Core/Hl.Core.csproj" />
+  <Project Path="Hl.DataAccess/Hl.DataAccess.csproj" />
+</Solution>
