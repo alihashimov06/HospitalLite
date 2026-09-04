@@ -9,7 +9,7 @@ namespace Hl.Core.Entities
     public class Appointment:BaseEntities
     {
         public int PatientId { get; set; }
-        public virtual AppUser AppUser { get; set; } = null!;
+        public virtual AppUser Patient { get; set; } = null!;
         public int DoctorId { get; set; }
         public virtual Doctor Doctor { get; set; } = null!;
         public DateTime AppointmentDate { get; set; }
